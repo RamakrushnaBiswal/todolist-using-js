@@ -15,11 +15,11 @@ body {
 .card {
     height: 500px;
     width: 430px;
-    background: linear-gradient(to bottom right, #0172AF, #74FEBD);
+    background: linear-gradient(to bottom right, #ff4066, #fff16a);
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 1px 1px 15px #0172AF;
+    box-shadow: 1px 1px 15px #ff4066;
     max-width: 400px; 
     transition: 0.2s;
 }
@@ -31,9 +31,10 @@ input {
     border-radius: 8px;
     background-color: aliceblue;
     transition: 0.3s;
+    border: none;
 }
 input:hover{
-    box-shadow: 10px 5px 12px #74FEBD;
+    box-shadow: 10px 5px 12px #fff16a;
     border: none;
 }
 h4{

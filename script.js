@@ -10,9 +10,9 @@ function addTask() {
         const listItem = document.createElement("li");
         listItem.innerHTML = `
             <span class="task-text">${taskText}</span>
-            <button class="edit">Edit</button>
-            <button class="complete">Complete</button>
-            <button class="delete">Delete</button>
+            <button class="edit"><i class="bi bi-pencil-square"></i>Edit</button>
+            <button class="complete"><i class="bi bi-check2"></i>Complete</button>
+            <button class="delete"><i class="bi bi-trash3"></i>Delete</button>
         `;
         taskList.appendChild(listItem);
 
